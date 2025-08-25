@@ -38,7 +38,8 @@ main {
   height: auto;
   flex-direction: column;
   border-radius: 0.8em;
-  padding: 2em;
+  padding: 2em; 
+  margin-top: 3em;
 }
 
 img {
@@ -89,7 +90,7 @@ td {
 }
 
 .attribution {
- margin: 10%;
+ margin: 2%;
  align-content: center;
 
 }
@@ -106,6 +107,7 @@ td {
 
   main {
     width: 90%;
+    margin-top: 0;
   }
 }
 

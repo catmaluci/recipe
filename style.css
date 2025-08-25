@@ -16,8 +16,12 @@ h3 {
   font-family: "Young Serif", serif;
 }
 h3 {
-  color: var(--color-rose-800);
+  color: var(--color-brown-800);
   font-weight: 400;
+}
+
+h4 {
+  color: var(--color-rose-800);
 }
 
 body {
@@ -65,7 +69,7 @@ ol {
 }
 
 li::marker {
-  color: var(--color-rose-800);
+  color: var(--color-brown-800);
   font-weight: bold;
 }
 
@@ -78,7 +82,7 @@ span {
 }
 h4,
 .textNutritionBoldColored {
-  color: var(--color-rose-800);
+  color: var(--color-brown-800);
   font-weight: bold;
 }
 

@@ -1,0 +1,112 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+  --color-brown-800: hsl(14, 45%, 36%);
+  --color-rose-800: hsl(332, 51%, 32%);
+  --color-rose-50: hsl(330, 100%, 98%);
+
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h3 {
+  font-family: "Young Serif", serif;
+}
+h3 {
+  color: var(--color-rose-800);
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--color-stone-100);
+  color: var(--color-stone-600);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+main {
+  background-color: var(--color-white);
+  width: 50%;
+  height: auto;
+  flex-direction: column;
+  border-radius: 0.8em;
+  padding: 2em;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.8em;
+}
+
+hr {
+  border: 1px solid var(--color-stone-150);
+  margin-top: 1.5em;
+}
+
+.prepTime {
+  background-color: var(--color-rose-50);
+  border-radius: 0.8em;
+  padding: 1em;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 0;
+  margin-left: 1.5rem;
+}
+
+li::marker {
+  color: var(--color-rose-800);
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+span {
+  font-weight: bold;
+}
+h4,
+.textNutritionBoldColored {
+  color: var(--color-rose-800);
+  font-weight: bold;
+}
+
+tr,
+td {
+  border-bottom: 1px solid var(--color-stone-150);
+  padding: 1%;
+  padding-left: 3%;
+}
+
+.attribution {
+ margin: 10%;
+ align-content: center;
+
+}
+@media screen and (max-width: 700px) {
+  body {
+    width: 100%;
+  }
+
+  img {
+    width: 120%;
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+
+  main {
+    width: 90%;
+  }
+}
+
+

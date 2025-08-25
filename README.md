@@ -12,7 +12,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size.
 - See all hover states for interactive elements on the page.
 
-### Screenshot
+### Preview
 
 ![Screenshot](./assets/images/screenshoot.png) 
 
@@ -35,13 +35,14 @@ This project was a great practice for CSS. I focused on improving my skills in:
 - **CSS Variables:** Implemented custom properties to manage colors efficiently.
 - **List and ::marker styling:** Learned to style ordered lists and control the appearance of numbers using the `::marker` pseudo-element.
 
-Here's a code snippet I'm proud of:
+Here's a code snippet reference:
 
 ```css
 li::marker {
   color: var(--color-rose-800);
   font-weight: bold;
-}```
+}
+```
 
-## **👥 Solved by** **M Olaya** 
+### **👥 Solved by M Olaya** 
 <a href="https://www.linkedin.com/in/molaya">LinkedIn</a> 

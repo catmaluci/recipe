@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe Page Solution 🧁
 
-This is my solution to the [Recipe page challenge](https://www.frontendmentor.io/challenges/recipe-page-QeTuW6QpX) on Frontend Mentor.
+This is my solution to the [Recipe page challenge](https://recipe-one-sable.vercel.app) on Frontend Mentor.
 
 
 ## Overview ✨
